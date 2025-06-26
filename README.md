@@ -1,6 +1,7 @@
+# HRP implementation
 This ipynb notebook provides a reproduceable implementation of the Hierarchical Risk Parity (HRP) portfolio optimization method, based on the work of Marcos López de Prado and adapted for practical use in Python. The notebook includes steps for data preparation, hierarchical clustering, intra-cluster risk parity allocation, and capital allocation across clusters, ensuring a comprehensive understanding of the HRP methodology.
 
-Chatgpt propmpt used in production, created by NotebookLM:
+#### Chatgpt propmpt used in production, created by NotebookLM:
 HRP is a novel portfolio optimization method developed by Marcos López de Prado, designed to address issues like instability, concentration, and out-of-sample underperformance often seen in traditional quadratic optimizers such as Markowitz's Critical Line Algorithm (CLA). PyPortfolioOpt's HRPOpt class implements HRP with permission from Marcos López de Prado.
 I. Practical Steps for HRP using PyPortfolioOpt (Re-evaluated)
 1.
